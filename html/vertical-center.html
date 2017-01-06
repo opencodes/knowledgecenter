@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            /* 1 */
+            #parent{
+                border: 1px solid #ccc;
+            }
+            #child {
+                line-height: 200px;
+                text-align: center
+            }
+            
+            /* 2 */
+            #parent2 {
+                display: table;
+                border: 1px solid #ccc;
+                height: 200px;
+                width: 100%;
+            }            
+            #child2 {
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+            }
+            
+            /* 3 */
+            #parent3{
+                width: 400px;
+                margin: 0 auto;
+                position: relative;
+                background: #ccc;
+                height: 200px;
+                border: 1px solid #ccc;
+            }            
+            #child3 {               
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                height: 10%;
+                width: 50%;
+                margin: -2.5% 0 0 -25%;
+                background-color: silver;
+                text-align: center;
+            }
+            
+            /* 3 */
+            #parent4{
+                width: 400px;
+                margin: 0 auto;
+                position: relative;
+                background: #ccc;
+                height: 200px;
+                border: 1px solid #ccc;
+            }            
+            #child4 {               
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                height: 10%;
+                width: 50%;
+                margin: auto;
+                background-color: silver;
+                text-align: center;
+            }
+            
+            #parent5 {
+                padding: 5%;
+                width: 400px;
+                background-color: aliceblue;
+                margin: auto;
+            }
+            #child5  {    
+                padding: 10% 0;
+                text-align: center;
+                background-color: antiquewhite;
+            }
+            
+            #parent6{
+                width: 100%;
+                height: 200px;
+                border: 1px solid #ccc;
+            }
+            #child6{
+                width: 50%;
+    height: 100px;
+    position: relative;
+    background-color: beige;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <!--
+        <h1>Line-Height Method</h1>
+        <div id="parent">
+            <div id="child">Text here</div>
+        </div>
+        <p>
+            - The above works in all browsers, however it will only work for a single line of text. If your text could wrap to a 2nd line you need to use a different method. <br/> - You can use any value you want as long as its larger than the font-size that’s been set.
+            <br/>
+            There’s one small got’cha with this method in that you have to be careful when using the shortcut for the font property. This method relies on you setting the line-height as a value greater than the font-size. When you use the font shortcut any property you don’t specifically set gets set to its default value. With line-height that default is 1. If you use the font shortcut, just make sure to explicitly set the line-height inside.
+        </p>
+        
+        
+        <h1>CSS Table Method</h1>        
+        <div id="parent2">
+            <div id="child2">Text here</div>
+        </div>        
+        <p>
+            Unlike the method above the content can be dynamic as the div will grow with what’s placed inside. The downside of this method is it doesn’t work in older versions of IE, though there is a fix, which is to add display: inline-block to the child element.
+            <br/>            
+        </p>
+        
+        
+        <h1>Absolute Positioning and Negative Margin</h1>   <div id="parent3">
+            <div id="child3">Text here</div>
+        </div>
+
+<div id="parent4">
+            <div id="child4">4th Method</div>
+        </div>  
+        <div id="parent5">
+            <div id="child5">5th Method</div>
+        </div>       
+                
+-->
+        
+        <div id="parent6">
+            <div id="child6">5th Method</div>
+        </div>
+        <p>First, we move the element in question down to the middle of it's parent using top: 50%, then we pull it back up by half of said element, with transform: translateY(-50%). Of course, the element must be relative, absolute, or fixed. If we look back to Figure 1, this is exactly what we have achieved.</p>
+        
+        
+    </body>
+</html>
