@@ -2,14 +2,14 @@
 ````
 (function(){
     var str = "This is a test text test",
-        niddle = "text";
-    
+        niddle = "test";
+
     function findOccurenceOfPattern(str, niddle){
-        var start = 0;
+        var start = [];
         var tempstring = "";
         var index = 0;
         var pos = 0;
-        
+
         for(var i = 0; i < str.length; i++){
             //console.log(" --- " + str.charAt(i),"niddle" ,niddle.charAt(index))
             if(str.charAt(i) == niddle.charAt(index)){
@@ -23,16 +23,17 @@
                 tempstring = "";
                 index = 0;
             }
-            
+
             if(niddle === tempstring){
                 tempstring = "";
                 index = 0;
                 start.push(pos);
             }
-            console.log("String '" + niddle + "' found at "+ start.join(' and ') +" in :" + str)
+            
         }
+        console.log("String '" + niddle + "' found at "+ start.join(' and ') +" in :" + str)
     }
     findOccurenceOfPattern(str, niddle);
-    
+
 })();
 ````
