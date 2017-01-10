@@ -8,12 +8,13 @@
         var start = 0;
         var tempstring = "";
         var index = 0;
+        var pos = 0;
         
         for(var i = 0; i < str.length; i++){
             //console.log(" --- " + str.charAt(i),"niddle" ,niddle.charAt(index))
             if(str.charAt(i) == niddle.charAt(index)){
                 if(index == 0){
-                    start = i;
+                    pos = i;
                 }
                 //console.log(" --- " + str.charAt(i))
                 tempstring += str.charAt(i);
@@ -23,12 +24,12 @@
                 index = 0;
             }
             
-            //console.log("tempstring : "+ tempstring," start : "+ start +" index : "+ index)
-            
             if(niddle === tempstring){
-                console.log("String '" + niddle + "' found at "+ start +" in :" + str)
-                return start;
+                tempstring = "";
+                index = 0;
+                start.push(pos);
             }
+            console.log("String '" + niddle + "' found at "+ start.join(' and ') +" in :" + str)
         }
     }
     findOccurenceOfPattern(str, niddle);
