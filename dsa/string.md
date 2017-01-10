@@ -1,7 +1,7 @@
 ### Searching for Patterns
 ````
 (function(){
-    var str = "This is a test text",
+    var str = "This is a test text test",
         niddle = "text";
     
     function findOccurenceOfPattern(str, niddle){
