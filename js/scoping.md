@@ -79,3 +79,25 @@ myFun.call(obj);
 </script>
 ````
 obj
+
+#### When invoking context-less function
+
+````
+
+var context = "global";
+
+var obj = {  
+    context: "object",
+    method: function () {                  
+        function f() {
+            var context = "function";
+            return this + ":" +this.context; 
+        };
+        return f(); //invoked without context
+    }
+};
+
+document.write(obj.method()); //
+````
+[object Window]:global 
+When you use this inside function that is invoked without any context (i.e. not on any object), it is bound to the global object (window in browser)(even if the function is defined inside the object) .
