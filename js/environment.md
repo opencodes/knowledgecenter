@@ -3,7 +3,8 @@
 
 - Declaring Strict Mode
 Strict mode is declared by adding "use strict"; to the beginning of a script or a function.
-** Why Strict Mode? **
+
+#### Why Strict Mode? 
 - Strict mode makes it easier to write "secure" JavaScript.
 - Strict mode changes previously accepted "bad syntax" into real errors.
 In strict mode, 
@@ -14,7 +15,7 @@ In strict mode,
 	- a non-existing object, 
 will throw an error.
 
-** Not Allowed in Strict Mode **
+#### Not Allowed in Strict Mode 
 - Using a variable, without declaring it, is not allowed:
 - Using an object, without declaring it, is not allowed:
 - Deleting a variable (or object) is not allowed.
