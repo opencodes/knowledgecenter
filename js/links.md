@@ -1,2 +1,3 @@
 - https://ashleynolan.co.uk/blog/a-guide-to-front-end-interviews
 - https://www.interviewcake.com/javascript-interview-questions
+- http://davidshariff.com/blog/
