@@ -84,3 +84,27 @@ fs.forEach(function(f){
 1
 2
 ```
+## Default value for function parameter
+```
+function receive(complete){
+    complete();
+}
+
+receive(function(){
+    console.log("job completed");
+})
+```
+//Using ES6
+```
+function receive(complete = function(){
+    console.log("job completed");
+}){
+    complete();
+}
+```
+//With Arrow
+```
+
+let receive = (complete = () => console.log("job completed")) => complete();
+
+```
