@@ -108,3 +108,8 @@ function receive(complete = function(){
 let receive = (complete = () => console.log("job completed")) => complete();
 
 ```
+## Constant
+const KEY = "dsfdsfsdf";
+KEY = "fgfdgfdg";//Uncaught SyntaxError: Identifier 'KEY' has already been declared
+const CONFIG = {};
+CONFIG.host = "localhost";//Only reference is read-only so we can add properties but can't reassign
