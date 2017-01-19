@@ -51,3 +51,36 @@ var x = {
   }
 }
 ```
+## let : Block level scope
+```
+var fs = [];
+for(var i=0; i<3; i++){
+    fs.push(function(){
+        console.log(i);
+    })
+}
+fs.forEach(function(f){
+    f();
+});
+
+//It will print 
+3
+3
+3
+```
+
+```
+var fs = [];
+for(let i=0; i<3; i++){
+    fs.push(function(){
+        console.log(i);
+    })
+}
+fs.forEach(function(f){
+    f();
+})
+//It will print 
+0
+1
+2
+```
