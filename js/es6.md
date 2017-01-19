@@ -115,3 +115,9 @@ KEY = "fgfdgfdg";//Uncaught SyntaxError: Identifier 'KEY' has already been decla
 const CONFIG = {};
 CONFIG.host = "localhost";//Only reference is read-only so we can add properties but can't reassign
 ```
+## Object Enhancement
+```
+var color = "red";
+function go(){}
+var x = {color, go}
+```
