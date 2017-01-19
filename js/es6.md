@@ -121,3 +121,13 @@ var color = "red";
 function go(){}
 var x = {color, go}
 ```
+##spread operator
+The spread operator allows you to take an array and spread it out into its individual items.
+
+If I log out an array with [ 1, 2, 3] you can see I get an array, so you have the brackets with [ 1, 2, 3].
+
+console.log([ 1, 2, 3]); // [1, 2, 3]
+If I put the three dots in front to say I want to spread this array and I hit run again, you can see I get 1, 2, 3 with no brackets around it.
+
+console.log(...[ 1, 2, 3]) // 1 2 3
+This actually allows us to push elements easily into other arrays.
