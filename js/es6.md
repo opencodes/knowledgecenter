@@ -131,3 +131,29 @@ If I put the three dots in front to say I want to spread this array and I hit ru
 
 console.log(...[ 1, 2, 3]) // 1 2 3
 This actually allows us to push elements easily into other arrays.
+
+## Destructuring : It extract specific elements from resource and make it available as new variable
+```
+var {name} = {
+    name :"Rajesh",
+    age : 30,
+    email : "rkjha.it.in@gmail.com"
+}
+var [first,,,,] = [5,1,2,3,4,5,6,7]
+console.log(name, first);
+
+var items = [{
+    name:"one",
+    qty : 3
+},{
+    name:"two",
+    qty : 3
+},{
+    name:"three",
+    qty : 3
+},{
+    name:"four",
+    qty : 3
+}];
+items.forEach(({name}) => console.log(name))
+```
