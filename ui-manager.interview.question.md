@@ -10,13 +10,14 @@
 #### Can you tell me about a time you used UI microinteractions?
 General
 
-What tools do you use for coding and debugging eg:IDE, browser plugins etc? 0pts
+#### What tools do you use for coding and debugging eg:IDE, browser plugins etc? 0pts
 
 HTML
 
-What is the difference between xhtml, html 4 and html 5? Which one do you use typically? (1) – 5pts
+#### What is the difference between xhtml, html 4 and html 5? Which one do you use typically? (1) – 5pts
 
-What are the browser-issues faced when developing cross browser web pages?(2) – 5pts
+#### What are the browser-issues faced when developing cross browser web pages?(2) – 5pts
+https://www.browseemall.com/Blog/index.php/2014/04/24/5-most-common-browser-compatibility-issues/
 
 What is DOM? (4) – 10pts
 
