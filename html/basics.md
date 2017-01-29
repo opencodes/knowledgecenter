@@ -29,7 +29,7 @@ Height = Content width + Padding(top + bottom) +  Border(top + bottom);
 If outer space is considerable than we can include margin as well.
 
 Note for old IE: Internet Explorer 8 and earlier versions, include padding and border in the width property. To fix this problem, add a <!DOCTYPE html> to the HTML page.
-### HTML <script> Tag async and defer
+### HTML script Tag async and defer
 Note: There are several ways an external script can be executed:
 
 If async="async": The script is executed asynchronously with the rest of the page (the script will be executed while the page continues the parsing)
