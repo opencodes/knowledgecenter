@@ -50,3 +50,5 @@ The markup might then look like this:
 - Child combinator	
 - Adjacent sibling combinator	
 - General sibling combinator	
+
+http://www.w3.org/TR/css3-selectors/#selectors
