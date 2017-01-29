@@ -1,0 +1,2 @@
+- Implement reduce
+- Implement map
