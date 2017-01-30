@@ -6,3 +6,6 @@
 - 1 Angular Question
 - 1 HTML/CSS question
 - 1 JS tricky Question
+
+## Best Read
+- https://medium.com/javascript-scene/top-javascript-frameworks-topics-to-learn-in-2017-700a397b711#.j0njiinqv
