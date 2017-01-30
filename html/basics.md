@@ -38,3 +38,52 @@ Note: There are several ways an external script can be executed:
 
 ### What is the difference between display: block, display: inline and display: inline-block?
 
+### INLINE vs BLOCK Element
+
+
+http://webdesignfromscratch.com/html-css/css-block-and-inline/
+
+
+
+
+
+### POSITION
+http://learnlayout.com/position.html
+http://www.barelyfitz.com/screencast/html-training/css/positioning/
+http://learnlayout.com/toc.html
+
+
+
+### FONT FACE (CUSTOM)
+http://stackoverflow.com/questions/7961721/how-do-i-install-a-custom-font-on-an-html-site
+
+
+
+### IE7/8 VS FIREFOX AND CHROME
+http://coding.smashingmagazine.com/2009/10/14/css-differences-in-internet-explorer-6-7-and-8/
+http://code.tutsplus.com/tutorials/9-most-common-ie-bugs-and-how-to-fix-them--net-7764
+http://css-tricks.com/ie-css-bugs-thatll-get-you-every-time/
+
+
+
+### CSS SELECTOR
+
+
+
+### CSS SPECIFICITY
+
+
+### BROWSER RENDERING
+
+
+
+### GRID LAYOUT / FLOAT LAYOUT / FIX LAYOUT
+
+
+
+-PX     Vs    EM      Vs      %
+
+### How would you position an object side by side  
+### how would you attach an event to an object   
+### How would you pick the middle element of a list  
+
