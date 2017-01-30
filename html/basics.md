@@ -87,3 +87,4 @@ http://css-tricks.com/ie-css-bugs-thatll-get-you-every-time/
 ### how would you attach an event to an object   
 ### How would you pick the middle element of a list  
 
+http://oli.jp/
