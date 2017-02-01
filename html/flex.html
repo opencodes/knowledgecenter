@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex </title>
+	<style type="text/css">
+		.flex-container-one {
+			display: flex;
+			height: 200px;
+			border: 1px solid #ccc;
+		}
+		.flex-item-one{
+			  flex-direction: row;/*| row-reverse | column | column-reverse;*/
+			  justify-content: center;
+		}
+		[class*="flex-item-"]{
+			height: 100px;
+			width: 100px;
+			background-color: #eee;
+			border: 1px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+<div class="flex-container-one">
+	<dir class="flex-item-one box">1</dir>
+	<dir class="flex-item-one box">2</dir>
+	<dir class="flex-item-one box">3</dir>
+	<dir class="flex-item-one box">4</dir>
+	<dir class="flex-item-one box">5</dir>
+	<dir class="flex-item-one box">6</dir>
+	<dir class="flex-item-one box">7</dir>
+	<dir class="flex-item-one box">8</dir>
+	<dir class="flex-item-one box">9</dir>
+	<dir class="flex-item-one box">10</dir>
+</div>
+</body>
+</html>
