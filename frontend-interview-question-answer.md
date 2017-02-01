@@ -59,19 +59,12 @@
 ### CSS Questions:
 
 ##### What is the difference between classes and IDs in CSS?
-Unlike the id selector, the class selector is most often used on several elements. This allows you to set a particular style for many HTML elements with the same class. The class selector uses the HTML class attribute, and is defined with a "." A simple way to look at it is that an id is unique to only one element.
-**ID's are unique**
-
-- Each element can have only one ID
-- Each page can have only one element with that ID
-
-**Classes are NOT unique**
-
-- You can use the same class on multiple elements.
-- You can use multiple classes on the same element.
+https://css-tricks.com/the-difference-between-id-and-class/
 
 ##### What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+http://stackoverflow.com/questions/6887336/what-is-the-difference-between-normalize-css-and-reset-css
 ##### Describe Floats and how they work.
+https://css-tricks.com/all-about-floats/
 ##### Describe z-index and how stacking context is formed.
 ##### Describe BFC(Block Formatting Context) and how it works.
 ##### What are the various clearing techniques and which is appropriate for what context?
