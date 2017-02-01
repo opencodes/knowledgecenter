@@ -17,7 +17,7 @@
   1. [How to Contribute](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
   1. [License](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
-#### General Questions:
+### General Questions:
 
 ##### What did you learn yesterday/this week?
 ##### What excites or interests you about coding?
@@ -40,7 +40,7 @@
 ##### Explain some of the pros and cons for CSS animations versus JavaScript animations.
 ##### What does CORS stand for and what issue does it address?
 
-#### HTML Questions:
+### HTML Questions:
 
 ##### What does a `doctype` do?
 ##### What's the difference between full standards mode, almost standards mode and quirks mode?
@@ -56,7 +56,7 @@
 ##### What is progressive rendering?
 ##### Have you used different HTML templating languages before?
 
-#### CSS Questions:
+### CSS Questions:
 
 ##### What is the difference between classes and IDs in CSS?
 Unlike the id selector, the class selector is most often used on several elements. This allows you to set a particular style for many HTML elements with the same class. The class selector uses the HTML class attribute, and is defined with a "." A simple way to look at it is that an id is unique to only one element.
@@ -101,7 +101,7 @@ Unlike the id selector, the class selector is most often used on several element
 ##### Have you ever worked with retina graphics? If so, when and what techniques did you use?
 ##### Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
 
-#### JS Questions:
+### JS Questions:
 
 ##### Explain event delegation
 ##### Explain how `this` works in JavaScript
@@ -153,20 +153,20 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   - What is the difference between call stack and task queue?
 ##### Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
 
-#### Testing Questions:
+### Testing Questions:
 
 ##### What are some advantages/disadvantages to testing your code?
 ##### What tools would you use to test your code's functionality?
 ##### What is the difference between a unit test and a functional/integration test?
 ##### What is the purpose of a code style linting tool?
 
-#### Performance Questions:
+### Performance Questions:
 
 ##### What tools would you use to find a performance bug in your code?
 ##### What are some ways you may improve your website's scrolling performance?
 ##### Explain the difference between layout, painting and compositing.
 
-#### Network Questions:
+### Network Questions:
 
 ##### Traditionally, why has it been better to serve site assets from multiple domains?
 ##### Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
@@ -180,7 +180,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * X-Frame-Options
 ##### What are HTTP methods? List all HTTP methods that you know, and explain them.
 
-#### Coding Questions:
+### Coding Questions:
 
 #####Question: What is the value of `foo`?*
 ```javascript
@@ -236,7 +236,7 @@ setTimeout(function() {
 console.log('three');
 ```
 
-#### Fun Questions:
+### Fun Questions:
 
 ##### What's a cool project that you've recently worked on?
 ##### What are some things you like about the developer tools you use?
