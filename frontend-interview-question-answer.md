@@ -66,11 +66,17 @@ http://stackoverflow.com/questions/6887336/what-is-the-difference-between-normal
 ##### Describe Floats and how they work.
 https://css-tricks.com/all-about-floats/
 ##### Describe z-index and how stacking context is formed.
+https://github.com/opencodes/knowledgecenter/blob/master/frontend-interview-question-answer.md
 ##### Describe BFC(Block Formatting Context) and how it works.
+https://www.sitepoint.com/understanding-block-formatting-contexts-in-css/
 ##### What are the various clearing techniques and which is appropriate for what context?
+https://css-tricks.com/all-about-floats/#article-header-id-4
 ##### Explain CSS sprites, and how you would implement them on a page or site.
+https://css-tricks.com/css-sprites/
 ##### What are your favourite image replacement techniques and which do you use when?
+https://css-tricks.com/css-image-replacement/
 ##### How would you approach fixing browser-specific styling issues?
+https://www.smashingmagazine.com/2010/06/the-principles-of-cross-browser-css-coding/
 ##### How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?
 ##### What are the different ways to visually hide content (and make it available only for screen readers)?
 ##### Have you ever used a grid system, and if so, what do you prefer?
@@ -82,17 +88,26 @@ https://css-tricks.com/all-about-floats/
 ##### How would you implement a web design comp that uses non-standard fonts?
 ##### Explain how a browser determines what elements match a CSS selector.
 ##### Describe pseudo-elements and discuss what they are used for.
+https://css-tricks.com/pseudo-element-roundup/
 ##### Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 ##### What does ```* { box-sizing: border-box; }``` do? What are its advantages?
+https://css-tricks.com/almanac/properties/b/box-sizing/
 ##### List as many values for the display property that you can remember.
 ##### What's the difference between inline and inline-block?
+https://css-tricks.com/almanac/properties/d/display/
 ##### What's the difference between a relative, fixed, absolute and statically positioned element?
+https://css-tricks.com/almanac/properties/p/position/
 ##### The 'C' in CSS stands for Cascading.  How is priority determined in assigning styles (a few examples)?  How can you use this system to your advantage?
+https://css-tricks.com/specifics-on-css-specificity/
 ##### What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
 ##### Have you played around with the new CSS Flexbox or Grid specs?
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 ##### How is responsive design different from adaptive design?
+https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/
 ##### Have you ever worked with retina graphics? If so, when and what techniques did you use?
+https://www.sitepoint.com/css-techniques-for-retina-displays/
 ##### Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
+https://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/
 
 ### JS Questions:
 
