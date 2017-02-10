@@ -178,6 +178,11 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ### Network Questions:
 
 ##### Traditionally, why has it been better to serve site assets from multiple domains?
+The answer is speed. This speed comes from two main sources:
+
+- Parallelization
+- Reduced header overhead
+https://travishorn.com/why-it-is-better-to-serve-site-assets-from-multiple-domains-972a2bf69d71#.holk65n56
 ##### Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
 ##### What are the differences between Long-Polling, Websockets and Server-Sent Events?
 ##### Explain the following request and response headers:
