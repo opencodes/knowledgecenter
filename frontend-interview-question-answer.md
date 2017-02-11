@@ -186,6 +186,7 @@ https://travishorn.com/why-it-is-better-to-serve-site-assets-from-multiple-domai
 
 ##### Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
 ##### What are the differences between Long-Polling, Websockets and Server-Sent Events?
+http://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet
 ##### Explain the following request and response headers:
   * Diff. between Expires, Date, Age and If-Modified-...
   * Do Not Track
