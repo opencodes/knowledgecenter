@@ -7,31 +7,52 @@
 			display: flex;
 			height: 200px;
 			border: 1px solid #ccc;
+			/*align-items: flex-end;*/
+			justify-content: center;
 		}
 		.flex-item-one{
-			  flex-direction: row;/*| row-reverse | column | column-reverse;*/
-			  justify-content: center;
+			  flex: 1;
+			  order: 2;
+			  background-color: aqua;
+			  
+		}
+		.flex-item-two{
+			  flex: 1;
+			  order: 1;
+			  background-color: blue;
+		}
+		.flex-item-three{
+			  flex: 1;
+			  order: 3;
+			  background-color: green;
 		}
 		[class*="flex-item-"]{
-			height: 100px;
-			width: 100px;
-			background-color: #eee;
+			
 			border: 1px solid #ccc;
 		}
 	</style>
 </head>
 <body>
 <div class="flex-container-one">
-	<dir class="flex-item-one box">1</dir>
-	<dir class="flex-item-one box">2</dir>
-	<dir class="flex-item-one box">3</dir>
-	<dir class="flex-item-one box">4</dir>
-	<dir class="flex-item-one box">5</dir>
-	<dir class="flex-item-one box">6</dir>
-	<dir class="flex-item-one box">7</dir>
-	<dir class="flex-item-one box">8</dir>
-	<dir class="flex-item-one box">9</dir>
-	<dir class="flex-item-one box">10</dir>
+	<dir class="flex-item-one box">
+		Published on Oct 11, 2016
+Learn how to use Flexbox to create different layouts. Link to my new "Git a Developer Job" course: https://www.udemy.com/git-a-web-devel...
+
+	</dir>
+	<dir class="flex-item-two box">Published on Oct 11, 2016
+Learn how to use Flexbox to create different layouts. Link to my new "Git a Developer Job" course: https://www.udemy.com/git-a-web-devel...
+
+Link to code used in this video: http://codepen.io/anon/pen/VKxRoE?edi...
+
+Link to more about browser support: http://caniuse.com/#feat=flexbox
+
+Add me on Twitter for webDev updates and cat pics: https://twitter.com/learnwebcode
+Category
+Education</dir>
+	<dir class="flex-item-three box">Published on Oct 11, 2016
+
+Education</dir>
+	
 </div>
 </body>
 </html>
