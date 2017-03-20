@@ -1,6 +1,6 @@
 # ES6 features
 ## Arrow Function : Shorthand For Function definition
-
+- One important feature of the => syntax is that it shares the same this as the surrounding code. This is important and different than what happens when you normally create a function in Javascript.Generally when you write a function in Javascript that function is given its own this.
 ### With parameter single line body
 ```
 var x = function (user){
