@@ -157,3 +157,34 @@ var items = [{
 }];
 items.forEach(({name}) => console.log(name))
 ```
+## Template Strings
+In ES6 new template strings were introduced. The two great features of template strings are
+- Variables within strings (without being forced to concatenate with +) and
+- Multi-line strings
+
+### Variables in strings
+This feature is also called “string interpolation.” The idea is that you can put variables right in your
+strings. Here’s how:
+
+```
+var firstName = "Nate";
+var lastName = "Murray";
+// interpolate a string
+var greeting = `Hello ${firstName} ${lastName}`;
+
+console.log(greeting);
+```
+*Note that to use string interpolation you must enclose your string in backticks not single or double
+quotes.
+
+### Multiline strings
+Another great feature of backtick strings is multi-line strings:
+```
+var template = `
+ <div>
+ <h1>Hello</h1>
+ <p>This is a great website</p>
+ </div>
+`
+```
+Multiline strings are a huge help when we want to put strings in our code that are a little long, like templates.
