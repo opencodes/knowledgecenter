@@ -2,10 +2,7 @@
 You know that DOM-operations are slow operations. Write a HTML page that contains 2 form fields. Connect (include and initialize)
 a 'class' like the following to that page – consider the 2 fields as for example a row of a spreadsheet component where you usually
 can have an unpredictable number of such fields depending on the resultset that goes into the final widget:
-function PAGE() {
-}
-PAGE.prototype.getDocumentContent = function() {
-}
+
 The HTML document will not contain any JavaScript written in it except the script include of that mentioned JavaScript class (or
 more classes if u feel you need them). Implement the PAGE class and the getDocumentContent method (and of course
 everything else you feel is necessary). The method should return the values of the document's fields in the following form whenever
@@ -22,3 +19,18 @@ rename them (even changing the id if you use it) – it still would work without
 • write the JavaScript code in plain JavaScript (don't include any external lib like jQuery or whatever)
 • optimize your code – write it as if it would be production code
 */
+
+function ready(callback){
+    // in case the document is already rendered
+    if (document.readyState!='loading') callback();
+    // modern browsers
+    else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
+    // IE <= 8
+    else document.attachEvent('onreadystatechange', function(){
+        if (document.readyState=='complete') callback();
+    });
+}
+
+ready(function(){
+    console.log('I am ready');
+});
