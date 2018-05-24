@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <title>Q.B - Find Document Content </title>
+</head>
+
+<body>
+    <h1>Q.C - Iframe Communication </h1>
+    <button id="my-btn">Talk to parent</button>
+    <script>
+        document.getElementById('my-btn').addEventListener('click', handleButtonClick, false);
+        function handleButtonClick(e) {
+            window.parent.postMessage({'message':'I did listen to you, Now listen to me'}, 'http://localhost');
+        }
+
+        window.addEventListener('message', function (e) {
+            console.log(e.data)
+        }, false);
+
+    </script>
+</body>
+
+</html>

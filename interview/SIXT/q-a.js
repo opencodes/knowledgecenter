@@ -1,4 +1,5 @@
-/*Q-A: (your file: q-a.js)
+/*
+Q-A: (your file: q-a.js)
 Suppose we have 2 arrays:
 var a = [10, 2, 3, 42, 5, 6];
 var b = ['f', 'b', 'c', 3, 'd', 'e'];
@@ -11,7 +12,7 @@ function getCommonElement(a, b) {
     var c = {}, 
     counter = 0, 
     commonElement = [], 
-    minArr = (a < b) ? a : b, 
+    minArr = (a < b) ? a : b, //Minimum size Array
     maxArr = (a > b) ? a : b, 
     k;
 
