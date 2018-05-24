@@ -12,7 +12,7 @@ document.getElementById('my-btn').addEventListener('click', function (e) {
 
 // For Cross window put origin * in second parameter
 document.getElementById('my-btn2').addEventListener('click', function (e) {
-    iframe_id_2.contentWindow.postMessage({ 'message': 'Please listen to window' }, 'http://localhost');
+    iframe_id_2.contentWindow.postMessage({ 'message': 'Please listen to window' }, '*');
 }, false);
 
 
