@@ -34,7 +34,7 @@ function ready(callback) {
 ready(function () {
     console.log('I am ready');
 
-    var PAGE = function  (el, n)  { 
+    var PAGE = function  (el, n)  { 
         this.elementSelector = el;
         this.parentEl = document.getElementById(el);
         this.noOfField = n;
@@ -51,7 +51,7 @@ ready(function () {
         this.bindClick();
     }
 
-    PAGE.prototype.getDocumentContent  =  function ()  {
+    PAGE.prototype.getDocumentContent  =  function ()  {
         var inputs = document.querySelectorAll('#'+this.elementSelector +' input');
         var res = {};
         for (var k = 0; k < inputs.length; k++) {  
@@ -61,7 +61,8 @@ ready(function () {
         return res;
     }
 
-    PAGE.prototype.printValue = function(res){
+    PAGE.prototype.printValue = function(){
+        var res = this.getDocumentContent();
         var output = document.getElementById('output');
         output.innerText = JSON.stringify(res);
     }
